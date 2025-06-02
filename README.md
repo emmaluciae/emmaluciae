@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @emmaluciae
-- 👀 I’m interested in Data Science and Computational Physics/Mathematics 
-- 🌱 I’m currently learning Radiation Biophysics
+- 👀 I’m interested in Data Science
+- 🌱 I’m currently learning 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 - 😄 Pronouns: She/Her
