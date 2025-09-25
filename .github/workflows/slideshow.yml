@@ -5,7 +5,6 @@ on:
       - 'assets/gallery/**'
       - '.github/workflows/slideshow.yml'
   workflow_dispatch:
-
 permissions:
   contents: write
 
@@ -16,24 +15,39 @@ jobs:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
 
-      - run: sudo apt-get update && sudo apt-get install -y imagemagick
-      - run: convert -version
+      - run: sudo apt-get update && sudo apt-get install -y imagemagick graphicsmagick
 
-      - name: Create thumbnails and slideshow.gif
+      - name: Build slideshow (debug)
         shell: bash
         run: |
-          set -euo pipefail
+          set -euxo pipefail
+          echo "PATH=$PATH"
+          command -v magick || true
+          command -v convert || true
+          command -v gm || true
+
           mkdir -p dist/gallery tmp_thumbs
           shopt -s nullglob
-          mapfile -t files < <(ls -1v assets/gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG} 2>/dev/null || true)
-          if (( ${#files[@]} == 0 )); then echo "::error::No images in assets/gallery"; exit 1; fi
+          files=(assets/gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG})
+          echo "Found ${#files[@]} images: ${files[*]}"
+
+          if (( ${#files[@]} == 0 )); then
+            echo "::error::No images in assets/gallery"; exit 1
+          fi
+
+          if command -v magick >/dev/null; then conv() { magick convert "$@"; }
+          elif command -v convert >/dev/null; then conv() { convert "$@"; }
+          elif command -v gm >/dev/null; then conv() { gm convert "$@"; }
+          else echo "::error::No converter found"; exit 1; fi
+
           i=0
           for f in "${files[@]}"; do
             printf -v out "tmp_thumbs/%03d.jpg" "$i"
-            convert "$f" -auto-orient -resize 900x900\> -strip "$out"
+            conv "$f" -auto-orient -resize '900x900>' -strip "$out"
             ((i++))
           done
-          convert -delay 120 -loop 0 tmp_thumbs/*.jpg -layers Optimize dist/gallery/slideshow.gif
+
+          conv -delay 120 -loop 0 tmp_thumbs/*.jpg -layers Optimize dist/gallery/slideshow.gif
           ls -lh dist/gallery/slideshow.gif
 
       - uses: crazy-max/ghaction-github-pages@v4
@@ -43,4 +57,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
