@@ -10,7 +10,6 @@
   <img src="https://streak-stats.demolab.com?user=emmaluciae&theme=dracula&hide_border=true" height="150" />
 </p>
 
-
 <table align="center">
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=emmaluciae&show_icons=true&theme=dracula&hide_border=false" height="150" /></td>
@@ -51,6 +50,8 @@
 
 <p align="left">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
+<br clear="both" />
+
 <td align="left"><img src="./assets/contact-pink.svg?v=3" height="50"></td>
 
 <div align="left">
@@ -73,4 +74,3 @@
 <p align="center">
   <a href="https://open.spotify.com/user/"><img src="https://novatorem.vercel.app/api/spotify" alt="now playing" /></a>
 </p>
-
