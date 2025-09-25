@@ -1,5 +1,4 @@
 name: Build gallery slideshow
-
 on:
   push:
     paths:
@@ -17,14 +16,8 @@ jobs:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
 
-      - name: List gallery files (debug)
-        run: |
-          echo "Repo root:" && pwd
-          echo "Listing assets/gallery:"
-          ls -la assets/gallery || true
-
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - run: convert -version
 
       - name: Create thumbnails and slideshow.gif
         shell: bash
@@ -32,35 +25,22 @@ jobs:
           set -euo pipefail
           mkdir -p dist/gallery tmp_thumbs
           shopt -s nullglob
-          # collect images in natural sort order
           mapfile -t files < <(ls -1v assets/gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG} 2>/dev/null || true)
-          if (( ${#files[@]} == 0 )); then
-            echo "::error::No images found in assets/gallery"; exit 1
-          fi
-          echo "Found ${#files[@]} images:"
-          printf ' - %s\n' "${files[@]}"
-
-          # resize to something reasonable to avoid OOM, strip metadata
+          if (( ${#files[@]} == 0 )); then echo "::error::No images in assets/gallery"; exit 1; fi
           i=0
           for f in "${files[@]}"; do
             printf -v out "tmp_thumbs/%03d.jpg" "$i"
-            magick "$f" -auto-orient -resize 900x900\> -strip "$out"
+            convert "$f" -auto-orient -resize 900x900\> -strip "$out"
             ((i++))
           done
+          convert -delay 120 -loop 0 tmp_thumbs/*.jpg -layers Optimize dist/gallery/slideshow.gif
+          ls -lh dist/gallery/slideshow.gif
 
-          # build optimized GIF
-          magick convert -delay 120 -loop 0 tmp_thumbs/*.jpg -layers Optimize dist/gallery/slideshow.gif
-          echo "Wrote dist/gallery/slideshow.gif ($(du -h dist/gallery/slideshow.gif | cut -f1))"
-
-      - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v4
         if: ${{ hashFiles('dist/gallery/slideshow.gif') != '' }}
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Embed URL (copy this)
-        run: echo "https://raw.githubusercontent.com/${{ github.repository }}/output/gallery/slideshow.gif"
 
