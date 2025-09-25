@@ -14,7 +14,7 @@
 <table align="center">
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=emmaluciae&show_icons=true&theme=dracula&hide_border=false" height="150" /></td>
-    <td width="80" align="center"><img src="./assets/divider.gif?v=1" height="150" /></td>
+    <td width="80" align="center"><img src="./assets/dividero.gif?v=1" height="150" /></td>
     <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=emmaluciae&layout=compact&langs_count=5&theme=dracula&hide_border=false" height="150" /></td>
   </tr>
 </table>
