@@ -21,9 +21,9 @@
 
 <br clear="both">
 
-<img align="right" height="150" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+<img align="right" height="250" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
 
-<td align="left"><img src="./assets/technologies-pink.svg?v=3" height="50"></td>
+<td align="left"><img src="./assets/technologies-pink.svg?v=4" height="50"></td>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
