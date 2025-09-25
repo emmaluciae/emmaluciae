@@ -1,0 +1,40 @@
+name: Build gallery slideshow
+on:
+  push:
+    paths:
+      - 'assets/gallery/**'
+      - '.github/workflows/slideshow.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Make slideshow.gif
+        shell: bash
+        run: |
+          shopt -s nullglob
+          imgs=(assets/gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG})
+          if [ ${#imgs[@]} -eq 0 ]; then
+            echo "No images found"; exit 0
+          fi
+          magick convert -delay 120 -loop 0 "${imgs[@]}" assets/gallery/slideshow.gif
+      - name: Commit slideshow.gif
+        run: |
+          if git status --porcelain | grep -q 'assets/gallery/slideshow.gif'; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/gallery/slideshow.gif
+            git commit -m "Build slideshow.gif"
+            git push
+          else
+            echo "No changes"
+          fi
