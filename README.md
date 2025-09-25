@@ -10,11 +10,6 @@
   <img src="https://streak-stats.demolab.com?user=emmaluciae&theme=dracula&hide_border=true" height="150" />
 </p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emmaluciae&hide_title=false&hide_rank=false&show_icons=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=emmaluciae&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
-</div>
-
 
 <table align="center">
   <tr>
