@@ -51,7 +51,7 @@
 
 <p align="left">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
-<p align="left"><img src="./assets/contact-pink.svg?v=4" height="50" alt="⋆ contact me through ⋆"></p>
+<p align="left"><img src="./assets/contact-pink.svg?v=4" height="50" alt="⋆ Contact Me Through ⋆"></p>
 
 <div align="left">
   <a href="mailto:emmaluciaelizondo@gmail.com" target="_blank">
