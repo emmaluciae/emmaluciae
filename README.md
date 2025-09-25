@@ -50,7 +50,7 @@
 
 <p align="left">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
-<td align="left"><img src="./assets/contact-pink.svg?v=4" height="50"></td>
+<td align="left"><img src="./assets/contact-pink.svg?v=1" height="50"></td>
 
 <div align="left">
   <a href="mailto:emmaluciaelizondo@gmail.com" target="_blank">
