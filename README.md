@@ -75,3 +75,6 @@
   <a href="https://open.spotify.com/user/"><img src="https://novatorem.vercel.app/api/spotify" alt="now playing" /></a>
 </p>
 
+<p align="center">
+  <img src="./assets/gallery/slideshow.gif?v=1" height="220" alt="slideshow">
+</p>
