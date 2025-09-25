@@ -23,7 +23,7 @@
 
 <img align="right" height="150" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
 
-<p align="left"><img src="./assets/contact-pink.svg" height="50" alt="⋆ contact me through ⋆"></p>
+<p align="left"><img src="./assets/technologies-pink.svg?v=1" height="50" alt="⋆ Technologies ⋆"></p>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
@@ -51,7 +51,7 @@
 
 <p align="left">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
-<p align="left"><img src="./assets/contact-pink.svg" height="50" alt="⋆ contact me through ⋆"></p>
+<p align="left"><img src="./assets/contact-pink.svg?v=4" height="50" alt="⋆ contact me through ⋆"></p>
 
 <div align="left">
   <a href="mailto:emmaluciaelizondo@gmail.com" target="_blank">
