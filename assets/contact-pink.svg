@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 20">
+<!-- assets/contact-pink.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 40" preserveAspectRatio="xMidYMid meet">
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ff79c6">⋆ contact me through ⋆</text>
+        font-family="Segoe UI, Arial, sans-serif" font-size="25" fill="#ff79c6">⋆ contact me through ⋆</text>
 </svg>
+
 
