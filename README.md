@@ -71,3 +71,9 @@
 </p>
 
 
+<p align="center"><small>⋆ contact me through ⋆</small></p>
+
+<p align="center"><kbd>contact me through:</kbd></p>
+
+<p align="center"><img src="./assets/contact-pink.svg" height="18" alt="⋆ contact me through ⋆" /></p>
+
