@@ -50,8 +50,6 @@
 
 <p align="left">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
-<br clear="both" />
-
 <td align="left"><img src="./assets/contact-pink.svg?v=3" height="50"></td>
 
 <div align="left">
@@ -69,8 +67,11 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/pacman-contribution-graph.svg">
 </picture>
 
+<br clear="both" />
+
 <p align="center">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
 <p align="center">
   <a href="https://open.spotify.com/user/"><img src="https://novatorem.vercel.app/api/spotify" alt="now playing" /></a>
 </p>
+
