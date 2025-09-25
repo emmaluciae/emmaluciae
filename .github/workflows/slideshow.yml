@@ -5,6 +5,7 @@ on:
       - 'assets/gallery/**'
       - '.github/workflows/slideshow.yml'
   workflow_dispatch:
+
 permissions:
   contents: write
 
@@ -15,40 +16,47 @@ jobs:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
 
-      - run: sudo apt-get update && sudo apt-get install -y imagemagick graphicsmagick
-
-      - name: Build slideshow (debug)
-        shell: bash
+      - name: Build slideshow with Pillow (Python)
         run: |
-          set -euxo pipefail
-          echo "PATH=$PATH"
-          command -v magick || true
-          command -v convert || true
-          command -v gm || true
+          python -m pip install --upgrade pip pillow
+          python - <<'PY'
+          import os, re, glob, pathlib
+          from PIL import Image, ImageOps
 
-          mkdir -p dist/gallery tmp_thumbs
-          shopt -s nullglob
-          files=(assets/gallery/*.{jpg,jpeg,png,JPG,JPEG,PNG})
-          echo "Found ${#files[@]} images: ${files[*]}"
+          # collect images (natural sort)
+          def key(s): return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', s)]
+          files = sorted(
+              glob.glob('assets/gallery/*.[Jj][Pp][Gg]') +
+              glob.glob('assets/gallery/*.[Jj][Pp][Ee][Gg]') +
+              glob.glob('assets/gallery/*.[Pp][Nn][Gg]'),
+              key=key
+          )
+          if not files:
+            raise SystemExit("No images found in assets/gallery")
 
-          if (( ${#files[@]} == 0 )); then
-            echo "::error::No images in assets/gallery"; exit 1
-          fi
+          frames = []
+          for f in files:
+            im = Image.open(f).convert("RGBA")           # robust to png/jpg
+            im = ImageOps.exif_transpose(im)             # auto-orient
+            im.thumbnail((900, 900), Image.LANCZOS)      # keep aspect, cap size
+            # palette GIF for small size
+            pal = im.convert("RGB").quantize(colors=256, method=Image.MEDIANCUT)
+            frames.append(pal)
 
-          if command -v magick >/dev/null; then conv() { magick convert "$@"; }
-          elif command -v convert >/dev/null; then conv() { convert "$@"; }
-          elif command -v gm >/dev/null; then conv() { gm convert "$@"; }
-          else echo "::error::No converter found"; exit 1; fi
-
-          i=0
-          for f in "${files[@]}"; do
-            printf -v out "tmp_thumbs/%03d.jpg" "$i"
-            conv "$f" -auto-orient -resize '900x900>' -strip "$out"
-            ((i++))
-          done
-
-          conv -delay 120 -loop 0 tmp_thumbs/*.jpg -layers Optimize dist/gallery/slideshow.gif
-          ls -lh dist/gallery/slideshow.gif
+          out = pathlib.Path("dist/gallery")
+          out.mkdir(parents=True, exist_ok=True)
+          duration_ms = 1200  # ~1.2s per slide
+          frames[0].save(
+              out / "slideshow.gif",
+              save_all=True,
+              append_images=frames[1:],
+              loop=0,
+              duration=duration_ms,
+              optimize=True,
+              disposal=2
+          )
+          print("Wrote", out / "slideshow.gif", "size:", (out / "slideshow.gif").stat().st_size, "bytes")
+          PY
 
       - uses: crazy-max/ghaction-github-pages@v4
         if: ${{ hashFiles('dist/gallery/slideshow.gif') != '' }}
