@@ -21,7 +21,9 @@
 
 <br clear="both">
 
-<img align="right" height="122" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+<img align="right" height="150" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+
+<p align="left"><img src="./assets/contact-pink.svg" height="30" alt="⋆ Technologies ⋆" /></p>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
@@ -49,6 +51,8 @@
 
 <p align="left">⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆⋆｡°✩ 𐙚 ｡⋆｡˚ ☁️ ˚｡⋆</p>
 
+<p align="left"><img src="./assets/contact-pink.svg" height="30" alt="⋆ contact me through ⋆" /></p>
+
 <div align="left">
   <a href="mailto:emmaluciaelizondo@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" />
@@ -69,11 +73,4 @@
 <p align="center">
   <a href="https://open.spotify.com/user/"><img src="https://novatorem.vercel.app/api/spotify" alt="now playing" /></a>
 </p>
-
-
-<p align="center"><small>⋆ contact me through ⋆</small></p>
-
-<p align="center"><kbd>contact me through:</kbd></p>
-
-<p align="center"><img src="./assets/contact-pink.svg" height="18" alt="⋆ contact me through ⋆" /></p>
 
