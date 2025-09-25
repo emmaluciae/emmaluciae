@@ -20,7 +20,7 @@
 
 <br clear="both">
 
-<img align="right" height="250" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+<img align="right" height="225" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
 
 <td align="left"><img src="./assets/technologies-pink.svg?v=4" height="50"></td>
 
