@@ -9,21 +9,23 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: output-branch
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
 
-      - name: Build slideshow with Pillow (Python)
+      # build slideshow into dist/gallery/slideshow.gif
+      - name: Build slideshow with Pillow
         run: |
           python -m pip install --upgrade pip pillow
           python - <<'PY'
-          import os, re, glob, pathlib
+          import re, glob, pathlib
           from PIL import Image, ImageOps
-
-          # collect images (natural sort)
           def key(s): return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', s)]
           files = sorted(
               glob.glob('assets/gallery/*.[Jj][Pp][Gg]') +
@@ -31,35 +33,34 @@ jobs:
               glob.glob('assets/gallery/*.[Pp][Nn][Gg]'),
               key=key
           )
-          if not files:
-            raise SystemExit("No images found in assets/gallery")
-
-          frames = []
+          assert files, "No images in assets/gallery"
+          frames=[]
           for f in files:
-            im = Image.open(f).convert("RGBA")           # robust to png/jpg
-            im = ImageOps.exif_transpose(im)             # auto-orient
-            im.thumbnail((900, 900), Image.LANCZOS)      # keep aspect, cap size
-            # palette GIF for small size
-            pal = im.convert("RGB").quantize(colors=256, method=Image.MEDIANCUT)
-            frames.append(pal)
-
-          out = pathlib.Path("dist/gallery")
-          out.mkdir(parents=True, exist_ok=True)
-          duration_ms = 1200  # ~1.2s per slide
-          frames[0].save(
-              out / "slideshow.gif",
-              save_all=True,
-              append_images=frames[1:],
-              loop=0,
-              duration=duration_ms,
-              optimize=True,
-              disposal=2
-          )
-          print("Wrote", out / "slideshow.gif", "size:", (out / "slideshow.gif").stat().st_size, "bytes")
+            im = Image.open(f).convert("RGBA")
+            im = ImageOps.exif_transpose(im)
+            im.thumbnail((900,900), Image.LANCZOS)
+            frames.append(im.convert("RGB").quantize(colors=256))
+          out = pathlib.Path("dist/gallery"); out.mkdir(parents=True, exist_ok=True)
+          frames[0].save(out/"slideshow.gif", save_all=True,
+                         append_images=frames[1:], loop=0, duration=1200,
+                         optimize=True, disposal=2)
           PY
 
+      # pull current output branch so we keep its files (e.g., pacman svg)
+      - name: Pull existing output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output_branch
+        continue-on-error: true
+
+      - name: Merge previous files into dist
+        run: |
+          mkdir -p dist
+          [ -d output_branch ] && cp -R output_branch/. dist/ || true
+
+      # publish merged dist (contains old files + new slideshow)
       - uses: crazy-max/ghaction-github-pages@v4
-        if: ${{ hashFiles('dist/gallery/slideshow.gif') != '' }}
         with:
           target_branch: output
           build_dir: dist
