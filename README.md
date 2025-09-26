@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩</p>
-<p align="left"><img src="./assets/mystica-title.svg?v=1" height="48" alt="my widget"></p>
+<p align="center"><img src="./assets/mystica-title.svg?v=1" height="48" alt="my widget"></p>
 <p align="center">✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩</p>
 
 <p align="center">
