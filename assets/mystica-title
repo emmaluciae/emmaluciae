@@ -1,0 +1,6 @@
+<!-- assets/my-pill.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 40">
+  <rect x="0.5" y="0.5" width="359" height="39" rx="12" ry="12" fill="#282a36" stroke="#ff79c6"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8be9fd">₊⁺⋆☽ My Dog Mytsica Pics ₊⁺⋆☽</text>
+</svg>
