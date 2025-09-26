@@ -78,10 +78,10 @@
 <p align="center">✩₊˚⁺₊✧⋆☾⋆⁺₊✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩₊⁺⋆☽⋆✧₊⁺˚₊✩</p>
 <p align="center"><img src="./assets/mystica-title.svg?v=1" height="48" alt="my widget"></p>
 
-<img align="left" height="200" src="https://i.postimg.cc/DfBhvFrQ/c92afeacae9c8649bcf6ffd3d6d674e8.gif" />
+<img align="left" height="165" src="https://i.postimg.cc/DfBhvFrQ/c92afeacae9c8649bcf6ffd3d6d674e8.gif" />
 
-<img align="right" height="200" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+<img align="right" height="165" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/gallery/slideshow.gif?v=1" height="220" alt="slideshow">
+  <img src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/gallery/slideshow.gif?v=2" height="220" alt="slideshow">
 </p>
