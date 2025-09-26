@@ -20,7 +20,7 @@
 
 <br clear="both">
 
-<img align="right" height="225" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+<img align="right" height="225" src="https://i.postimg.cc/zX2qj53D/572fbf507afa542c48e10b122d0b5cca.gif" />
 
 <td align="left"><img src="./assets/technologies-pink.svg?v=4" height="50"></td>
 
@@ -75,9 +75,12 @@
   <a href="https://open.spotify.com/user/"><img src="https://novatorem.vercel.app/api/spotify" alt="now playing" /></a>
 </p>
 
-<p align="center">✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩</p>
+<p align="center">✩₊˚⁺₊✧⋆☾⋆⁺₊✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩₊⁺⋆☽⋆✧₊⁺˚₊✩</p>
 <p align="center"><img src="./assets/mystica-title.svg?v=1" height="48" alt="my widget"></p>
-<p align="center">✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩</p>
+
+<img align="left" height="200" src="https://i.postimg.cc/DfBhvFrQ/c92afeacae9c8649bcf6ffd3d6d674e8.gif" />
+
+<img align="right" height="200" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/gallery/slideshow.gif?v=1" height="220" alt="slideshow">
