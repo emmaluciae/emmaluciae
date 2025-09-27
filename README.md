@@ -9,12 +9,13 @@
   <table>
     <tr>
       <td valign="top" width="60%">
-        <p>
-          ✧ Currently working on a <b>weather app / analysis website</b><br>
-          ✧ Classes I’m taking:<br>
-  &nbsp;&nbsp;&nbsp;♡ Leadership and Consulting in Data Science<br>
-  &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science
-        </p>
+      <p>
+        ✧ Doing: <b>Amazon Operational Strategy & People Analytics Externship</b><br>
+        ✧ Currently working on a <b>weather app / analysis website</b><br>
+        ✧ Classes I’m taking:<br>
+        &nbsp;&nbsp;&nbsp;♡ Leadership and Consulting in Data Science<br>
+        &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science
+      </p>
       </td>
       <td valign="top" width="40%" align="right">
         <img src="https://streak-stats.demolab.com?user=emmaluciae&theme=dracula&hide_border=true" height="150" />
