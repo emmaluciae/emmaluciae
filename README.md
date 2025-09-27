@@ -91,15 +91,24 @@
 <p align="center">✩₊˚⁺₊✧⋆☾⋆⁺₊✩₊˚.⋆☾⋆⁺₊✧  ♡  ✧₊⁺⋆☽⋆.˚₊✩₊⁺⋆☽⋆✧₊⁺˚₊✩</p>
 <p align="center"><img src="./assets/mystica-title.svg?v=1" height="48" alt="my widget"></p>
 
-<img align="left" height="165" src="https://i.postimg.cc/DfBhvFrQ/c92afeacae9c8649bcf6ffd3d6d674e8.gif" />
+<img align="left" height="200" src="https://i.postimg.cc/DfBhvFrQ/c92afeacae9c8649bcf6ffd3d6d674e8.gif" />
 
-<img align="right" height="165" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
+<img align="right" height="200" src="https://i.postimg.cc/GtZmZn1Z/download.gif" />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/gallery/slideshow.gif?v=1" height="220" alt="slideshow">
-</p>
-
-<p align="center">
-  <img src="./assets/frame-01.svg?v=1" width="380" alt="framed photo">
-</p>
+<div align="center">
+  <table align="center" cellspacing="0" cellpadding="0">
+    <tr><td bgcolor="#ff79c6" colspan="3" height="4"></td></tr>
+    <tr>
+      <td bgcolor="#ff79c6" width="4"></td>
+      <td align="center" height="28">☁️ ⋆ ♡ ⋆ ☁️ </td>
+      <td bgcolor="#ff79c6" width="4"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#ff79c6" width="4"></td>
+      <td><img src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/gallery/slideshow.gif?v=1" height="224" alt="photo"></td>
+      <td bgcolor="#ff79c6" width="4"></td>
+    </tr>
+    <tr><td bgcolor="#ff79c6" colspan="3" height="4"></td></tr>
+  </table>
+</div>
 
