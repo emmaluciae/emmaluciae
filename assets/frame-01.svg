@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250">
-  <defs><clipPath id="c"><rect x="8" y="8" width="364" height="234" rx="16" ry="16"/></clipPath></defs>
-  <rect x="4" y="4" width="372" height="242" rx="20" ry="20" fill="#282a36" stroke="#ff79c6" stroke-width="2"/>
-  <image href="./gallery/01.jpg" x="8" y="8" width="364" height="234" clip-path="url(#c)" preserveAspectRatio="xMidYMid slice"/>
-</svg>
