@@ -98,3 +98,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/emmaluciae/emmaluciae/output/gallery/slideshow.gif?v=1" height="220" alt="slideshow">
 </p>
+
+<p align="center">
+  <img src="./assets/frame-01.svg?v=1" width="380" alt="framed photo">
+</p>
+
