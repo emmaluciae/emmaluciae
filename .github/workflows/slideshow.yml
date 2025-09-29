@@ -5,6 +5,8 @@ on:
       - 'assets/gallery/**'
       - '.github/workflows/slideshow.yml'
   workflow_dispatch:
+  schedule:
+  - cron: "0 * * * *"   # every hour
 
 permissions:
   contents: write
