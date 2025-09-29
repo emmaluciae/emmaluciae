@@ -11,10 +11,9 @@
       <td valign="top" width="60%">
       <p>
         ✧ Doing: <b>Amazon Operational Strategy & People Analytics Externship</b><br>
-        ✧ Currently working on a 
-        <a href="https://github.com/emmaluciae/Weather-Analysis-Site" target="_blank">
-          <b>weather app / analysis website</b>
-        </a><br>
+        ✧ Currently working on: <br>
+        &nbsp;&nbsp;&nbsp;♡ <a href="https://github.com/emmaluciae/Weather-Analysis-Site" target="_blank"><b>Weather App / Analysis Website</b></a><br>
+        &nbsp;&nbsp;&nbsp;♡ <b>Game Discovery & Trends Platform</b><br>
         ✧ Classes I’m taking:<br>
         &nbsp;&nbsp;&nbsp;♡ Leadership and Consulting in Data Science<br>
         &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science
