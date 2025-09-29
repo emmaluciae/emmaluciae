@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Nunito&size=24&pause=500&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B;About+Me+%26+What+I+am+Working+on+Below;Data+Science+%E2%9C%A8+Modeling+%E2%9C%A8+Fun+Projects;Python+%7C+R;Based+in+Texas+%F0%9F%8C%B5;puppy+pics+at+the+end+%F0%9F%AB%A2%F0%9F%90%B6+%E2%8B%86%E2%81%BA%E2%82%8A" />
+  <img src="https://readme-typing-svg.demolab.com?font=Nunito&size=24&pause=500&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B;About+Me+%26+What+I+am+Working+on+Below;Data+Science+%E2%9C%A8+Modeling+%E2%9C%A8+Fun+Projects;Python+%7C+R+%7C+HTML+%7C+CSS;Based+in+Texas+%F0%9F%8C%B5;puppy+pics+at+the+end+%F0%9F%AB%A2%F0%9F%90%B6+%E2%8B%86%E2%81%BA%E2%82%8A" />
 
 <div align="center">
   <table>
