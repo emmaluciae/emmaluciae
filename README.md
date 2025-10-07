@@ -16,7 +16,8 @@
         &nbsp;&nbsp;&nbsp;♡ <b>Game Discovery & Trends Platform</b><br>
         ✧ Classes I’m taking:<br>
         &nbsp;&nbsp;&nbsp;♡ Leadership and Consulting in Data Science<br>
-        &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science
+        &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ Statistical Models Traffic Crashes
       </p>
       </td>
       <td valign="top" width="40%" align="right">
