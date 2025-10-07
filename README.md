@@ -17,7 +17,7 @@
         ✧ Classes I’m taking:<br>
         &nbsp;&nbsp;&nbsp;♡ Leadership and Consulting in Data Science<br>
         &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ Statistical Models Traffic Crashes
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ <a href="https://github.com/emmaluciae/Statistical-Models-Traffic-Crashes" target="_blank"><b>Statistical Models Traffic Crashes</b></a><br>
       </p>
       </td>
       <td valign="top" width="40%" align="right">
