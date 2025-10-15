@@ -16,7 +16,8 @@
         &nbsp;&nbsp;&nbsp;♡ <b>Game Discovery & Trends Platform</b><br>
         ✧ Classes I’m taking:<br>
         &nbsp;&nbsp;&nbsp;♡ Leadership and Consulting in Data Science<br>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ McDonald’s EDA project <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ <a href="https://github.com/emmaluciae/McDonald-s-EDA" target=_blank"><b>McDonald’s EDA project</b></a><br>
+      </p>
         &nbsp;&nbsp;&nbsp;♡ Statistical Models for Data Science<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ <a href="https://github.com/emmaluciae/Statistical-Models-Traffic-Crashes" target="_blank"><b>Statistical Models Traffic Crashes</b></a><br>
       </p>
