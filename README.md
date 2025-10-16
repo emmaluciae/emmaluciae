@@ -22,8 +22,8 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✧ <a href="https://github.com/emmaluciae/Statistical-Models-Traffic-Crashes" target="_blank"><b>Statistical Models Traffic Crashes</b></a><br>
       </p>
       </td>
-      <td valign="top" width="40%" align="right">
-        <img src="https://streak-stats.demolab.com?user=emmaluciae&theme=dracula&hide_border=true" height="150" />
+      <td valign="top" width="40%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=emmaluciae&layout=compact&langs_count=5&theme=dracula&hide_border=false" height="150">
       </td>
     </tr>
   </table>
@@ -31,9 +31,9 @@
 
 <table align="center">
   <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=emmaluciae&show_icons=true&theme=dracula&hide_border=false" height="150" /></td>
+    <td><img src="https://github-readme-stats.vercel.app/api?username=emmaluciae&show_icons=true&theme=dracula&hide_border=true&rank_icon=github" height="150"></td>
     <td width="80" align="center"><img src="./assets/dividero.gif?v=1" height="150" /></td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=emmaluciae&layout=compact&langs_count=5&theme=dracula&hide_border=false" height="150" /></td>
+    <td><img src="https://github-readme-activity-graph.vercel.app/graph?username=emmaluciae&theme=dracula&hide_border=true" height="250"></td>
   </tr>
 </table>
 
