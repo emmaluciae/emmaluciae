@@ -8,34 +8,24 @@
 <div align="center">
   <table>
     <tr>
-      <td valign="top" width="60%">
-      <p>
-        ✧ Work: Data and Project Manager at the Office for Sustainability</b><br>
-        ✧ Currently working on: <br>
-        &nbsp;&nbsp;&nbsp;♡ <a href="https://github.com/emmaluciae/Weather-Analysis-Site" target="_blank"><b>Weather App / Analysis Website</b></a><br>
-        &nbsp;&nbsp;&nbsp;♡ <b>Game Discovery & Trends Platform</b><br>
-        ✧ Classes I’m taking:<br>
-        &nbsp;&nbsp;&nbsp;♡ Machine Learning 1<br>
-         <br>
-      </p>
-        &nbsp;&nbsp;&nbsp;♡ Time Series Analysis and Forecasting<br>
-        <br>
-      </p>
+      <td align="center" valign="middle">
+        <img src="./assets/dividero.gif?v=1" height="150" />
       </td>
-      <td valign="top" width="40%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=emmaluciae&layout=compact&langs_count=5&theme=dracula&hide_border=false" height="150">
+      <td valign="middle">
+        ✧ <b>Work:</b> Data and Project Manager at the Office for Sustainability<br>
+        ✧ <b>Currently working on:</b><br>
+        &nbsp;&nbsp;&nbsp;♡ <a href="https://github.com/emmaluciae/Weather-Analysis-Site"><b>Weather App / Analysis Website</b></a><br>
+        &nbsp;&nbsp;&nbsp;♡ <b>Game Discovery & Trends Platform</b><br>
+        ✧ <b>Classes I’m taking:</b><br>
+        &nbsp;&nbsp;&nbsp;♡ Machine Learning 1<br>
+        &nbsp;&nbsp;&nbsp;♡ Time Series Analysis and Forecasting
+      </td>
+      <td align="center" valign="middle">
+        <img src="./assets/dividero.gif?v=1" height="150" />
       </td>
     </tr>
   </table>
 </div>
-
-<table align="center">
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=emmaluciae&show_icons=true&theme=dracula&hide_border=true&rank_icon=github" height="150"></td>
-    <td width="80" align="center"><img src="./assets/dividero.gif?v=1" height="150" /></td>
-    <td><img src="https://github-readme-activity-graph.vercel.app/graph?username=emmaluciae&theme=dracula&hide_border=true" height="250"></td>
-  </tr>
-</table>
 
 <br clear="both">
 
