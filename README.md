@@ -12,13 +12,14 @@
         <img src="./assets/dividero.gif?v=1" height="150" />
       </td>
       <td valign="middle">
-        ✧ <b>Work:</b> Data and Project Manager at the Office for Sustainability<br>
-        ✧ <b>Currently working on:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ <a href="https://github.com/emmaluciae/Weather-Analysis-Site"><b>Weather App / Analysis Website</b></a><br>
-        &nbsp;&nbsp;&nbsp;♡ <b>Game Discovery & Trends Platform</b><br>
-        ✧ <b>Classes I’m taking:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ Machine Learning 1<br>
-        &nbsp;&nbsp;&nbsp;♡ Time Series Analysis and Forecasting
+        ✧ <b>About me:</b><br>
+        &nbsp;&nbsp;&nbsp;♡ M.A. Applied Data Science student at the University of Chicago<br>
+        &nbsp;&nbsp;&nbsp;♡ B.S. in Physics<br>
+        ✧ <b>Currently:</b><br>
+        &nbsp;&nbsp;&nbsp;♡ Taking Capstone I<br>
+        &nbsp;&nbsp;&nbsp;♡ Exploring data science, machine learning & AI<br>
+        ✧ <b>Interests:</b><br>
+        &nbsp;&nbsp;&nbsp;♡ Data Analytics • Machine Learning • NLP
       </td>
       <td align="center" valign="middle">
         <img src="./assets/dividero.gif?v=1" height="150" />
