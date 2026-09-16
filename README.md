@@ -13,7 +13,7 @@
       </td>
       <td valign="middle">
         ✧ <b>About me:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ M.A. Applied Data Science student at the University of Chicago<br>
+        &nbsp;&nbsp;&nbsp;♡ M.S. Applied Data Science student at the University of Chicago<br>
         &nbsp;&nbsp;&nbsp;♡ B.S. in Physics<br>
         ✧ <b>Currently:</b><br>
         &nbsp;&nbsp;&nbsp;♡ Taking Capstone I and MLOps and Inference Engineering<br>
