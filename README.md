@@ -16,7 +16,7 @@
         &nbsp;&nbsp;&nbsp;♡ M.A. Applied Data Science student at the University of Chicago<br>
         &nbsp;&nbsp;&nbsp;♡ B.S. in Physics<br>
         ✧ <b>Currently:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ Taking Capstone I<br>
+        &nbsp;&nbsp;&nbsp;♡ Taking Capstone I and MLOps and Inference Engineering<br>
         &nbsp;&nbsp;&nbsp;♡ Exploring data science, machine learning & AI<br>
         ✧ <b>Interests:</b><br>
         &nbsp;&nbsp;&nbsp;♡ Data Analytics • Machine Learning • NLP
