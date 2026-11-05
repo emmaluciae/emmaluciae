@@ -21,7 +21,7 @@
         ✧ <b>Interests:</b><br>
         &nbsp;&nbsp;&nbsp;♡ Data Analytics • Machine Learning • NLP<br>
         ✧ <b>Beyond academics:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ Competitive League of Legends esports player 🎮
+        &nbsp;&nbsp;&nbsp;♡ Small Competitive League of Legends esports player 🎮
       </td>
       <td align="center" valign="middle">
         <img src="./assets/dividero.gif?v=1" height="200" />
