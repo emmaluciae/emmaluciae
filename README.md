@@ -24,7 +24,7 @@
         &nbsp;&nbsp;&nbsp;♡ Competitive League of Legends esports player 🎮
       </td>
       <td align="center" valign="middle">
-        <img src="./assets/dividero.gif?v=1" height="150" />
+        <img src="./assets/dividero.gif?v=1" height="200" />
       </td>
     </tr>
   </table>
