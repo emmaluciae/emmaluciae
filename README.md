@@ -9,7 +9,7 @@
   <table>
     <tr>
       <td align="center" valign="middle">
-        <img src="./assets/dividero.gif?v=1" height="150" />
+        <img src="./assets/dividero.gif?v=1" height="170" />
       </td>
       <td valign="middle">
         ✧ <b>About me:</b><br>
