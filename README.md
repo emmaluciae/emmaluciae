@@ -16,10 +16,12 @@
         &nbsp;&nbsp;&nbsp;♡ M.S. Applied Data Science student at the University of Chicago<br>
         &nbsp;&nbsp;&nbsp;♡ B.S. in Physics<br>
         ✧ <b>Currently:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ Taking Capstone I and MLOps and Inference Engineering<br>
-        &nbsp;&nbsp;&nbsp;♡ Exploring data science, machine learning & AI<br>
+        &nbsp;&nbsp;&nbsp;♡ Working on a global biodiversity & ecosystem health Capstone<br>
+        &nbsp;&nbsp;&nbsp;♡ Studying MLOps and Inference Engineering<br>
         ✧ <b>Interests:</b><br>
-        &nbsp;&nbsp;&nbsp;♡ Data Analytics • Machine Learning • NLP
+        &nbsp;&nbsp;&nbsp;♡ Data Analytics • Machine Learning • NLP<br>
+        ✧ <b>Beyond academics:</b><br>
+        &nbsp;&nbsp;&nbsp;♡ Competitive League of Legends esports player 🎮
       </td>
       <td align="center" valign="middle">
         <img src="./assets/dividero.gif?v=1" height="150" />
